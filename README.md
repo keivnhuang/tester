@@ -49,6 +49,25 @@ Verify that VMware Tools is installed in each virtual machine in the vApp. See [
 
 
 ## Save a vApp as a vApp Templates
+You can save a vApp to a catalog as a vApp template.
+You are at least a vApp author.
+### Prerequisites
+  + Your organization has a catalog and a vDC with available space.
+  + The vApp must be stopped.
+### Procedure
+1. Click My Cloud.
+2. In the left pane, click vApps.
+3. Right-click a vApp and select Add to Catalog.
+4. Type a name and optional description for the vApp template.
+5. Select a vDC, a catalog, and a storage lease.
+6. Select a vApp creation option.
+This option applies when creating a vApp based on this template. It is ignored when building a vApp using individual virtual machines from this template.
+|Option                                |Description                         |
+|:------------------------------------:|------------------------------------|
+|Make identical copy                   |vApps that are created from this vApp template must follow the guest operating system settings of the vApp template. If you select this option, and guest customization is enabled, the guest operating system is personalized. |
+|Customize VM settings                 |Guest operating system is personalized regardless of the vApp template settings, and the guest operating system is personalized when the vApp is deployed. This option requires that a supported version of VMware Tools be installed on all virtual machines in the vApp.|
+7. 
+
 
 ## Modify vApp Templates Prerequisites
 
