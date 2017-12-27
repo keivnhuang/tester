@@ -30,6 +30,7 @@ vCloud Director creates a vApp on the My Cloud > vApps page.
 ### Related Command and Caution
 1. yum install open-vm-tools
 2. check status
+
 `[root@erikube-lb ~]# systemctl -a |grep tool`
  `vmtoolsd.service`                                                                                                                 
 `loaded    active   running   Service for virtual machines hosted on VMware`
