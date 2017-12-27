@@ -7,68 +7,11 @@ See the office documentation on [pubs.vmware.com]
 <!-- TOC depthFrom:2 -->
 
 - [Add a vApp Templates to My Cloud](#Add-a-vApp-Templates-to-My-Cloud)
-- [Upload an OVF Package/ISO package as a vApp Template] (#Upload an OVF Package/ISO package as a vApp Template)
-- [Save a vApp as a vApp Templates] (#Save a vApp as a vApp Templates)
-- [Modify vApp Templates Prerequisites] (#Modify vApp Templates Prerequisites)
+- [Upload an OVF Package/ISO package as a vApp Template](#Upload-an-OVF-Package/ISO-package-as-a-vApp-Template)
+- [Save a vApp as a vApp Templates](#Save-a-vApp-as-a-vApp-Templates)
+- [Modify vApp Templates Prerequisites](#Modify-vApp-Templates-Prerequisites)
 
 <!-- /TOC -->
-
-
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-
-aa
-a
-a
-
-
-
-a
-
-
-
-dddd
-
-
-
-
-
-
-
-ddd
-
-
-
-
-
-
-
-
-
-
 
 ## Add a vApp Templates to My Cloud
 
