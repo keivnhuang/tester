@@ -1,6 +1,6 @@
 # vApp Templates Guide
 
-This repository contains the vApp Templates, guide documents and some notice.
+This repository contains the vApp Templates, guide documentation and some notice.
 
 See the office documentation on [pubs.vmware.com]
 
@@ -14,9 +14,14 @@ See the office documentation on [pubs.vmware.com]
 <!-- /TOC -->
 
 ## Add a vApp Templates to My Cloud
-
-*8.12.2017*: Updated to Keycloak 3.4.1
-*1.12.2017*: Updated to Keycloak 3.4.0
+You can add a vApp template as a vApp from your catalog to My Cloud.
+You are at least a vApp author.
+If the vApp template is based on an OVF file that includes OVF properties for customizing its virtual machines, those properties are passed to the vApp. If any of those properties are user-configurable, you can specify the values.
+### Prerequisites
+A vApp template is available in a published or a locally shared catalog.
+### Procedure
+1. Click Catalogs.
+2. In the left pane, click on a catalog option.
 
 ## Upload an OVF Package/ISO paackage as a vApp Template
 
