@@ -65,10 +65,11 @@ This option applies when creating a vApp based on this template. It is ignored w
 
 |Option                                |Description                         |
 |:------------------------------------:|------------------------------------|
-|Make identical copy                   |vApps that are created from this vApp template must follow the guest o|
-|Customize VM settings                 |Guest operating system is personalized regardless of the vApp template |
+|Make identical copy                   |vApps that are created from this vApp template must follow the guest operating system settings of the vApp template. If you select this option, and guest customization is enabled, the guest operating system is personalized.|
+|Customize VM settings                 |Guest operating system is personalized regardless of the vApp template settings, and the guest operating system is personalized when the vApp is deployed. This option requires that a supported version of VMware Tools be installed on all virtual machines in the vApp. |
 
-7. 
+7. Click OK.
+The vApp is saved as a vApp template and appears in the destination catalog.
 
 
 ## Modify vApp Templates Prerequisites
