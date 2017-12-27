@@ -4,12 +4,10 @@ This repository contains the vApp Templates, guide documents and some notice.
 
 See the office documentation on [pubs.vmware.com]
 
-[pubs.vmware.com]: https://pubs.vmware.com/vcd-51/index.jsp?topic=%2Fcom.vmware.vcloud.install.doc_51%2FGUID-F14315CC-B373-4A21-A3D9-270FFCF0A417.html
-
 <!-- TOC depthFrom:2 -->
 
 - [Add a vApp Templates to My Cloud](#Add a vApp Templates to My Cloud)
-- [Upload an OVF Package/ISO paackage as a vApp Template](#Upload an OVF Package/ISO paackage as a vApp Template)
+- [Upload an OVF Package/ISO package as a vApp Template](#Upload an OVF Package/ISO package as a vApp Template)
 - [Save a vApp as a vApp Templates](#Save a vApp as a vApp Templates)
 - [Modify vApp Templates Prerequisites](#Modify vApp Templates Prerequisites)
 
@@ -88,3 +86,5 @@ ansible-playbook letsencrypt.yaml
 * The keys will be signed only if the old keys expire in 10 or less days
 
 *The `acme_directory` variable can be used to define whether the production Let's Encrypt service should be used or the staging service (for testing).*
+
+[pubs.vmware.com]: https://pubs.vmware.com/vcd-51/index.jsp?topic=%2Fcom.vmware.vcloud.install.doc_51%2FGUID-F14315CC-B373-4A21-A3D9-270FFCF0A417.html
