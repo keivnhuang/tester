@@ -13,6 +13,35 @@ See the office documentation on [pubs.vmware.com]
 
 <!-- /TOC -->
 
+
+
+
+
+
+
+
+
+
+dddd
+
+
+
+
+
+
+
+ddd
+
+
+
+
+
+
+
+
+
+
+
 ## Add a vApp Templates to My Cloud
 
 *8.12.2017*: Updated to Keycloak 3.4.1
