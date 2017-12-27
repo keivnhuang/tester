@@ -30,6 +30,23 @@ vCloud Director creates a vApp on the My Cloud > vApps page.
 
 
 ## Upload an OVF Package/ISO package as a vApp Template
+You can upload an OVF package from remote shares and your local directory to vCloud Director as a vApp template.
+You are at least a catalog creator.
+vCloud Director supports OVFs based on the Open Virtualization Format (OVF) Specification. If you upload an OVF file that includes OVF properties for customizing its virtual machines, those properties are preserved in the vApp template.
+### Prerequisites
+  + The computer from which you are uploading must have Java Plug-in 1.6.0_10 or later installed.
+  + For information about creating OVFs, see the OVF Tool User Guide and VMware vCenter Converter 4.0.1 User's Guide.
+  + vCloud Director does not support uploading compressed OVF files.
+### Procedure
+1. Click Catalogs > My Organization's Catalogs.
+2. On the vApp Templates tab, click the Upload button.
+3. Type the name and path of the OVF file to upload, or click Browse, select the OVF file, and click Upload.
+4. Type a name and optional description for the vApp template.
+5. Select a destination vDC and catalog.
+6. Click Upload.
+### What to do next
+Verify that VMware Tools is installed in each virtual machine in the vApp. See [Installing VMware Tools in a vApp].
+
 
 ## Save a vApp as a vApp Templates
 
@@ -37,3 +54,4 @@ vCloud Director creates a vApp on the My Cloud > vApps page.
 
 
 [pubs.vmware.com]: https://pubs.vmware.com/vcd-51/index.jsp?topic=%2Fcom.vmware.vcloud.install.doc_51%2FGUID-F14315CC-B373-4A21-A3D9-270FFCF0A417.html
+[Installing VMware Tools in a vApp]: https://pubs.vmware.com/vcd-51/index.jsp?topic=%2Fcom.vmware.vcloud.users.doc_51%2FGUID-F0826E73-7F9F-489C-B0DB-17C7D742B1AF.html
