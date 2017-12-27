@@ -6,10 +6,10 @@ See the office documentation on [pubs.vmware.com]
 
 <!-- TOC depthFrom:2 -->
 
-- [Add a vApp Templates to My Cloud](#Add-a-vApp-Templates-to-My-Cloud)
+- [Add a vApp Templates to My Cloud](#Add a vApp Templates to-My-Cloud)
 - [Upload an OVF Package/ISO package as a vApp Template](#Upload-an-OVF-Package/ISO-package-as-a-vApp-Template)
 - [Save a vApp as a vApp Templates](#Save-a-vApp-as-a-vApp-Templates)
-- [Modify vApp Templates Prerequisites](#Modify-vApp-Templates-Prerequisites)
+- [Modify vApp Templates Prerequisites](#Modify)
 
 <!-- /TOC -->
 
@@ -59,7 +59,7 @@ Following configuration is needed only for signing the certificates with Let's E
 | `acme_directory` | Let's Encrypt ACME directory where we the certificates should be signed (production or staging) | `https://acme-staging.api.letsencrypt.org/directory` |
 | `full_chain_cert` | URL to chain of public CA certificates which should be used with the end certificates. If not specified, only the end certificate will be used. | `https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem.txt` |
 
-## Modify vApp Templates Prerequisites
+## Modify
 
 To install the application export the variables with AWS access tokens and run:
 ```
