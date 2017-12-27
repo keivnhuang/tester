@@ -73,6 +73,18 @@ The vApp is saved as a vApp template and appears in the destination catalog.
 
 
 ## Modify vApp Templates Prerequisites
+You can modify some basic properties of a vApp template. To make more advanced changes to a vApp template, add it to My Cloud, make the changes, then add it back to the catalog as a new vApp template.
+You are an organization administrator.
+### Procedure
+1. Click Catalogs > My Organization's Catalogs.
+2. On the vApp Templates tab, right-click a vApp template and select Properties.
+3. On the General tab, modify the vApp template name and description.
+4. Select a vApp creation option.
+   This option applies when creating a vApp based on this template. It is ignored when building a vApp using individual virtual machines from this template.
+5. Choose whether or not to mark the vApp template as a Gold Master in the catalog.
+   If you mark a vApp template as a Gold Master, this information appears in the list of vApp templates.
+6. To reset the vApp template storage lease, select the Reset lease check box and select a new storage lease.
+7. Click OK.
 
 
 [pubs.vmware.com]: https://pubs.vmware.com/vcd-51/index.jsp?topic=%2Fcom.vmware.vcloud.install.doc_51%2FGUID-F14315CC-B373-4A21-A3D9-270FFCF0A417.html
