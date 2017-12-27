@@ -1,6 +1,7 @@
 # vApp Templates Guide
 This repository contains the vApp Templates, guide documentation and some notice.
 See the office documentation on [pubs.vmware.com]
+
 > ## Add a vApp Templates to My Cloud
 > ## Upload an OVF Package/ISO package as a vApp Template
 > ## Save a vApp as a vApp Templates
@@ -14,7 +15,7 @@ If the vApp template is based on an OVF file that includes OVF properties for cu
 ### Prerequisites
 A vApp template is available in a published or a locally shared catalog.
 ### Procedure
-1. Click Catalogs.
+1. Click __Catalogs__.
 2. In the left pane, click on a catalog option.
   + My Organization's Catalogs
   + Public Catalogs
