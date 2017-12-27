@@ -62,10 +62,12 @@ You are at least a vApp author.
 5. Select a vDC, a catalog, and a storage lease.
 6. Select a vApp creation option.
 This option applies when creating a vApp based on this template. It is ignored when building a vApp using individual virtual machines from this template.
+
 |Option                                |Description                         |
 |:------------------------------------:|------------------------------------|
 |Make identical copy                   |vApps that are created from this vApp template must follow the guest o|
 |Customize VM settings                 |Guest operating system is personalized regardless of the vApp template |
+
 7. 
 
 
