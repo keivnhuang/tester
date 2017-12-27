@@ -29,8 +29,9 @@ A vApp template is available in a published or a locally shared catalog.
 vCloud Director creates a vApp on the My Cloud > vApps page.
 ### Related Command and Caution
 1. yum install open-vm-tools
-2. systemctl -a |grep vmtool 
-`vmtoolsd.service                                                                                                               loaded    active   running   Service for virtual machines hosted on VMware`
+2. check status <systemctl -a |grep vmtool>
+ `vmtoolsd.service`                                                                                                               `loaded    active   running   Service for virtual machines hosted on VMware`
+
 
 ## Upload an OVF Package/ISO package as a vApp Template
 You can upload an OVF package from remote shares and your local directory to vCloud Director as a vApp template.
