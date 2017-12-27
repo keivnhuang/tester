@@ -33,7 +33,7 @@ vCloud Director creates a vApp on the My Cloud > vApps page.
 
  `vmtoolsd.service`                                                                                                                 
 `loaded    active   running   Service for virtual machines hosted on VMware`
-
+3. Firefox version 18.0.1 
 
 ## Upload an OVF Package/ISO package as a vApp Template
 You can upload an OVF package from remote shares and your local directory to vCloud Director as a vApp template.
