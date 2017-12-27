@@ -23,7 +23,7 @@ A vApp template is available in a published or a locally shared catalog.
 5. Select a runtime and storage lease and click Next.
 6. Select a virtual datacenter, configure the virtual machines in the vApp, and click Next.
 7. Configure the custom properties, if any, and click Next.
-8. Configure the networking options for the vApp and click Next.
+8. Configure the networking options for the vApp and click __Next__.
 9. Review the vApp summary information and click Finish.
 vCloud Director creates a vApp on the My Cloud > vApps page.
 
