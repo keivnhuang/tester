@@ -2,18 +2,20 @@
 This repository contains the vApp Templates, guide documentation and some notice.
 See the office documentation on [pubs.vmware.com]
 
-> *Add* a vApp Template
-> *Upload* a vApp Template
-> *Save* a vApp Template
-> *Modify* a vApp Template
+> ###*Add* a vApp Template
+> ###*Upload* a vApp Template
+> ###*Save* a vApp Template
+> ###*Modify* a vApp Template
 
 
 ## *Add* a vApp Template
 You can add a vApp template as a vApp from your catalog to My Cloud.
 You are at least a vApp author.
 If the vApp template is based on an OVF file that includes OVF properties for customizing its virtual machines, those properties are passed to the vApp. If any of those properties are user-configurable, you can specify the values.
+
 ### Prerequisites
 A vApp template is available in a published or a locally shared catalog.
+
 ### Procedure
 1. Click __Catalogs__.
 2. In the left pane, click on a catalog option.
@@ -27,6 +29,7 @@ A vApp template is available in a published or a locally shared catalog.
 8. Configure the networking options for the vApp and click Next.
 9. Review the vApp summary information and click Finish.
 vCloud Director creates a vApp on the My Cloud > vApps page.
+
 ### Related Command and Caution
 1. yum install open-vm-tools
 2. check status, systemctl -a |grep vmtool
@@ -40,10 +43,12 @@ vCloud Director creates a vApp on the My Cloud > vApps page.
 You can upload an OVF package from remote shares and your local directory to vCloud Director as a vApp template.
 You are at least a catalog creator.
 vCloud Director supports OVFs based on the Open Virtualization Format (OVF) Specification. If you upload an OVF file that includes OVF properties for customizing its virtual machines, those properties are preserved in the vApp template.
+
 ### Prerequisites
   + The computer from which you are uploading must have Java Plug-in 1.6.0_10 or later installed.
   + For information about creating OVFs, see the OVF Tool User Guide and VMware vCenter Converter 4.0.1 User's Guide.
   + vCloud Director does not support uploading compressed OVF files.
+
 ### Procedure
 1. Click Catalogs > My Organization's Catalogs.
 2. On the vApp Templates tab, click the Upload button.
@@ -51,16 +56,18 @@ vCloud Director supports OVFs based on the Open Virtualization Format (OVF) Spec
 4. Type a name and optional description for the vApp template.
 5. Select a destination vDC and catalog.
 6. Click Upload.
+
 ### What to do next
 Verify that VMware Tools is installed in each virtual machine in the vApp. See [Installing VMware Tools in a vApp].
-
 
 ## *Save* a vApp Template
 You can save a vApp to a catalog as a vApp template.
 You are at least a vApp author.
+
 ### Prerequisites
   + Your organization has a catalog and a vDC with available space.
   + The vApp must be stopped.
+
 ### Procedure
 1. Click My Cloud.
 2. In the left pane, click vApps.
@@ -78,10 +85,10 @@ This option applies when creating a vApp based on this template. It is ignored w
 7. Click OK.
 The vApp is saved as a vApp template and appears in the destination catalog.
 
-
 ## *Modify* a vApp Templates
 You can modify some basic properties of a vApp template. To make more advanced changes to a vApp template, add it to My Cloud, make the changes, then add it back to the catalog as a new vApp template.
 You are an organization administrator.
+
 ### Procedure
 1. Click Catalogs > My Organization's Catalogs.
 2. On the vApp Templates tab, right-click a vApp template and select Properties.
@@ -92,7 +99,6 @@ You are an organization administrator.
    If you mark a vApp template as a Gold Master, this information appears in the list of vApp templates.
 6. To reset the vApp template storage lease, select the Reset lease check box and select a new storage lease.
 7. Click OK.
-
 
 [pubs.vmware.com]: https://pubs.vmware.com/vcd-51/index.jsp?topic=%2Fcom.vmware.vcloud.install.doc_51%2FGUID-F14315CC-B373-4A21-A3D9-270FFCF0A417.html
 [Installing VMware Tools in a vApp]: https://pubs.vmware.com/vcd-51/index.jsp?topic=%2Fcom.vmware.vcloud.users.doc_51%2FGUID-F0826E73-7F9F-489C-B0DB-17C7D742B1AF.html
