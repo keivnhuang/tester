@@ -2,13 +2,13 @@
 This repository contains the vApp Templates, guide documentation and some notice.
 See the office documentation on [pubs.vmware.com]
 
-> ### *Add* a vApp Templates
-> ### *Upload* a vApp Template
-> ### *Save* a vApp Templates
-> ### *Modify* a vApp Templates
+> *Add* a vApp Template
+> *Upload* a vApp Template
+> *Save* a vApp Template
+> *Modify* a vApp Template
 
 
-## Add a vApp Templates to My Cloud
+## *Add* a vApp Template
 You can add a vApp template as a vApp from your catalog to My Cloud.
 You are at least a vApp author.
 If the vApp template is based on an OVF file that includes OVF properties for customizing its virtual machines, those properties are passed to the vApp. If any of those properties are user-configurable, you can specify the values.
@@ -36,7 +36,7 @@ vCloud Director creates a vApp on the My Cloud > vApps page.
 
 3. Firefox version 18.0.1 
 
-## Upload an OVF Package/ISO package as a vApp Template
+## *Upload* a vApp Template
 You can upload an OVF package from remote shares and your local directory to vCloud Director as a vApp template.
 You are at least a catalog creator.
 vCloud Director supports OVFs based on the Open Virtualization Format (OVF) Specification. If you upload an OVF file that includes OVF properties for customizing its virtual machines, those properties are preserved in the vApp template.
@@ -55,7 +55,7 @@ vCloud Director supports OVFs based on the Open Virtualization Format (OVF) Spec
 Verify that VMware Tools is installed in each virtual machine in the vApp. See [Installing VMware Tools in a vApp].
 
 
-## Save a vApp as a vApp Templates
+## *Save* a vApp Template
 You can save a vApp to a catalog as a vApp template.
 You are at least a vApp author.
 ### Prerequisites
@@ -79,7 +79,7 @@ This option applies when creating a vApp based on this template. It is ignored w
 The vApp is saved as a vApp template and appears in the destination catalog.
 
 
-## Modify vApp Templates Prerequisites
+## *Modify* a vApp Templates
 You can modify some basic properties of a vApp template. To make more advanced changes to a vApp template, add it to My Cloud, make the changes, then add it back to the catalog as a new vApp template.
 You are an organization administrator.
 ### Procedure
