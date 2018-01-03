@@ -2,11 +2,14 @@
 This repository contains the vApp Templates, guide documentation and some notice.
 See the office documentation on [pubs.vmware.com]
 
-> ### *Add* a vApp Template(#Add-a-vApp-Template)
+> ### *Add* a vApp Template (#Add-a-vApp-Template)
 > ### *Upload* a vApp Template
 > ### *Save* a vApp Template
-> ### *Modify* a vApp Template
-
+- *Modify* a vApp Template(#*Modify*-a-vApp-Template)
+- [*Add* a vApp Template](#*Add*-a-vApp-Template)
+- [Updates](#updates)
+- [Updates](#updates)
+- [*Modify* a vApp Template](#*Modify*-a-vApp-Template)
 
 ## *Add* a vApp Template
 You can add a vApp template as a vApp from your catalog to My Cloud.
