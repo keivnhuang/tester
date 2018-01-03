@@ -2,10 +2,10 @@
 This repository contains the vApp Templates, guide documentation and some notice.
 See the office documentation on [pubs.vmware.com]
 
-> ## Add a vApp Templates to My Cloud
-> ## Upload an OVF Package/ISO package as a vApp Template
-> ## Save a vApp as a vApp Templates
-> ## Modify vApp Templates Prerequisites
+-[Add a vApp Templates to My Cloud](#Add-a-vApp-Templates-to-My-Cloud)
+> ## *Upload* an OVF Package/ISO package as a vApp Template
+> ## *Save* a vApp as a vApp Templates
+> ## *Modify* vApp Templates Prerequisites
 
 
 ## Add a vApp Templates to My Cloud
