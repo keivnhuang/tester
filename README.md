@@ -32,9 +32,8 @@ vCloud Director creates a vApp on the My Cloud > vApps page.
 1. yum install open-vm-tools
 2. check status, systemctl -a |grep vmtool
 
- `vmtoolsd.service`
- 
-`loaded    active   running   Service for virtual machines hosted on VMware`
+`vmtoolsd.service` 
+`loaded    active   running   Service for virtual machines hosted on VMware` 
 
 3. Firefox version 18.0.1 
 
